@@ -1,0 +1,12 @@
+.cover .bg-black-60 {
+    background-color: rgba(0,0,0,.2);
+}
+li code, p code {
+    padding: 1px 3px;
+
+    font-size: 1rem;
+    white-space: pre-wrap;
+    border: #E3EDF3 1px solid;
+    background: rgb(242, 250, 253);
+    border-radius: 2px;
+}

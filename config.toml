@@ -1,3 +1,28 @@
-baseURL = "http://example.org/"
-languageCode = "en-us"
-title = "My New Hugo Site"
+baseurl = "https://www.remmelt.com"
+title = "snips"
+theme = "ananke"
+languagecode = "en"
+defaultcontentlanguage = "en"
+
+paginate = 6
+canonifyurls = true
+
+disqusShortname = "blogremmeltcom"
+
+[params]
+  description = "Software engineer. Also, people engineer."
+  featured_image = "images/bg.jpg"
+  author = "Remmelt Pit"
+  authorlocation = "Amsterdam, NL"
+  authorwebsite = "https://www.remmelt.com"
+  logo = "images/avatar.jpg"
+  github = "https://github.com/remmelt"
+  twitter = "https://twitter.com/remmelt_"
+  custom_css = ["css/custom.css"]
+  background_color_class = "bg-dark-gray"
+  recent_posts_number = 3
+
+[sitemap]
+  changefreq = "monthly"
+  priority = 0.5
+  filename = "sitemap.xml"
